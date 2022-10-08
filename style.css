@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+
+    background: url("https://source.unsplash.com/random");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: 
+    z-index: -1;
+}
+.body{
+    height: 200vh;
+    width: 80%;
+    background: rgb(36,0,28);
+background: linear-gradient(90deg, rgba(36,0,28,1) 0%, rgba(228,202,29,1) 23%, rgba(23,121,9,0.9514399509803921) 64%, rgba(255,0,93,1) 96%);
+    margin-left: 10%;
+}
+header{
+    background-color:coral;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
+h2{
+    margin-left:30px;
+}
+ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:30px;
+}
+ul li{
+    padding:20px;
+    list-style:none;
+    color:white;
+    height:67.5;
+}
+ul li a{
+    text-decoration: none;
+    color:#000;
+    font-size:1.5rem;
+}
+ul li a:hover{
+    color:blue;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    transition:.2s ease-in-out;
+}
+.login{
+    font-size:1.5rem;
+    border-radius:30px;
+    height:40px;
+    padding:5px;
+    width:130px;
+    background-color:lightgreen;
+}
+.sign-up{
+  font-size:1.5rem;
+    border-radius:30px;
+    height:40px;
+    margin-left:20px;
+    padding:5px;
+    width:130px;
+    background-color:lightgreen;
+}
+.sign-up:hover{
+    background-color: yellowgreen;
+}
+.login:hover{
+    background-color: yellowgreen;
+}
